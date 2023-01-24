@@ -5,7 +5,7 @@ const initialState = {
     objectId: 10245,
     apiData: {}
 }
-
+//all state is here in one place. 
 export const dataSlice = createSlice({
     name: 'data',
     initialState,
